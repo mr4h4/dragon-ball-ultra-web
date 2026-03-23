@@ -128,6 +128,7 @@
 
 .hero-right img {
   width: 100%;
+  max-width: 200px;
   height: auto;
   opacity: 0.95;
 
@@ -139,7 +140,7 @@
 
 .hero-right img:hover {
   transform: scale(1.07);
-  filter: drop-shadow(0 0 20px rgba(255, 213, 74, 0.4));
+  filter: drop-shadow(0 0 30px rgb(255, 213, 74));
 }
 
 /* glow detrás */
@@ -253,7 +254,7 @@
   }
 
   .hero-right img {
-    max-width: 320px;
+    max-width: 100px;
   }
 
   .hero-right {

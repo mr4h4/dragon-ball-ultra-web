@@ -1,5 +1,5 @@
 import "../styles/hero.css";
-import esferasPrimordialesPNG from "../assets/img/esferas-primordiales.png"
+import imgFlotante from "../assets/img/goku-nube.gif"
 import dbUltraLogo from "../assets/img/db-ultra-logo.png"
 
 const Hero = () => {
@@ -36,7 +36,7 @@ const Hero = () => {
         </div>
 
         <div className="hero-right">
-            <img className="imagen-png" src={esferasPrimordialesPNG} alt="esferas-primordiales"></img>
+            <img className="imagen-png" src={imgFlotante} alt="esferas-primordiales"></img>
         </div>
       </div>
     </section>

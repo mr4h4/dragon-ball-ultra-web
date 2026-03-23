@@ -5,6 +5,8 @@ const mangas: Manga[] = mangasData;
 
 const MangaList = () => {
   return (
+    <>
+    <hr></hr>
     <section id="manga" className="manga-section">
       <h2>Tomos Disponibles</h2>
 
@@ -25,6 +27,7 @@ const MangaList = () => {
         ))}
       </div>
     </section>
+    </>
   );
 };
 
